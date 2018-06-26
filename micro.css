@@ -1,0 +1,133 @@
+#thefirst{
+	max-width:100%;
+	height:1200px;
+	color:white;
+}
+#thesecond{
+	width:15%;
+	height:1100px;
+	float:left;
+	padding-left:15px;
+	padding-top:5px;
+}
+#thesecond img{
+	width:80%;
+	height:100px;
+	margin-top:3px;
+}
+.thetitle{
+	text-align:center;
+	color:white;
+	font-family:consolas;
+}
+.uuulll{
+	display:inline-block;
+	color:green;
+	font-family:Microsoft YaHei;
+	font-size:20px;
+	margin:5px 43px;
+	box-sizing: border-box;
+}
+.ululul{
+	text-align:center;
+	background-color:white;
+}
+.comb{
+	color:blue;
+	font-family:Microsoft YaHei;
+	font-size:20px;
+	text-decoration:none;
+	padding:3px 10px;
+}
+.comb:hover{
+	background-color:orange;
+}
+#thefour{
+	float:left;
+	width:15%;
+	height:1100px;
+	margin-left:50px;
+}
+#thefour img{
+	margin-bottom:20px;
+	margin-top:5px;
+}
+#thethird{
+	width:63%;
+	height:1200px;
+	float:left;
+	background: rgba(0, 10, 20, 0.6);;
+}
+#headi img{
+	width:100%;
+	height:550px;
+}
+.ppp1{
+	font-size:30px;
+	font-family:Microsoft YaHei;
+	float:right; 
+}
+#thefive h2{
+	text-align:left;
+	font-family:Microsoft YaHei;
+	margin:20px 50px;
+	letter-spacing: 3px;
+	color:white;
+}
+#thefive ul li{
+	text-align:left;
+	font-family:Microsoft YaHei;
+	margin:10px 80px;
+	font-size:20px;
+	letter-spacing: 3px;
+	color:white;
+}
+#thesix{
+	text-align:left;
+	margin:10px 50px;
+}
+#theseven{
+	text-align:left;
+	margin:10px 50px;
+}
+footer p a{
+	text-decoration:none;
+}
+.canserch{
+	font-family:consolas;
+	font-size:18px;
+	background-color:#0496ff;
+	color:white;
+	padding:5px;
+}
+.ccomb{
+	color:blue;
+	font-family:Microsoft YaHei;
+	font-size:20px;
+	text-decoration:none;
+	padding:3px 10px;
+}
+#pic1{ 
+	height:300px;
+    width: 220px;   
+}
+#pic2{
+	height:300px;
+    width: 220px; 
+}
+#pic3{
+	height:300px;
+    width: 220px; 
+}
+#pic4{
+	height:300px;
+    width: 220px; 
+}
+#pic5{
+	height:300px;
+    width: 220px; 
+}
+#pic6{
+	height:300px;
+    width: 220px; 
+}

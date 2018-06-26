@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>門市據點</title>
+	<link rel="stylesheet" href="micro.css">
+</head>
+<body bgcolor="#0496ff">
+	<div style="height: 80px;width: 100%;margin-top: 0px;">
+		<a href="index.html"style="text-decoration:none;"><img src="https://i.imgur.com/kLpFT8k.png" alt="" width="100px" height="65px" style="float:left">
+		<h1 style="font-family:Microsoft YaHei;color:white;">
+			專一3C量販
+		</h1>
+	</a>
+</div>
+	<div style="height: 910px;width: 100%">
+	<div style="height: 288px;width: 26%;float:left;">
+		<div style="background-image: url(img/callcenters.PNG);height: 270px;width: 250px;float:right"></div></div>
+		<div style="height: 530px;width: 73%;float:left;">
+		<div style="height: 84px;width: 900px;background-image: url(img/themap.png);"></div>
+	<div style="height: 530px;width: 450px;float:left";>
+		<font size="10" name="HC1"><b>請點選地區</b></font>
+		<div style="height: 530px;width: 283px; float:right;background-image: url(img/map_taiwan.jpg);">
+			<BUTTON style="background-color: transparent;width: 120px;height: 80px;border: 0;position:relative; left:140px; top: 30px;" onClick="ch_map1()"></BUTTON><p>
+			<button style="background-color: transparent;width: 120px;height: 100px;border: 0;position:relative; left:50px; top: 30px;" onClick="ch_map2()"></button><p>
+			<BUTTON style="background-color: transparent;width: 120px;height: 140px;border: 0;position:relative; left:0px; top: 30px;" onClick="ch_map3()"></BUTTON>
+			<BUTTON style="background-color: transparent;width: 80px;height: 180px;border: 0;position:relative; left:20px; top: 10px;" onClick="ch_map4()"></BUTTON>
+		</div>
+	</div>
+	<div style="height: 530px;width: 435px;float:left";><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d68703.81839386864!2d121.40853565953948!3d25.176251622727595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1dcf4f494b3362b!2z5reh5rGf5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1525615492561" width="435" height="530" frameborder="5" style="border:5" allowfullscreen name="map"></iframe></iframe></iframe></div>
+	</div>
+	<script language="JavaScript">
+		
+		function ch_map1(){
+    	var map = document.getElementsByName("map");
+    	var y = document.getElementsByName("HC1");
+    	y[0].innerHTML = "北部據點:淡江總公司";
+    	map[0].src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d68703.81839386864!2d121.40853565953948!3d25.176251622727595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1dcf4f494b3362b!2z5reh5rGf5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1525615492561"
+    }
+    function ch_map2(){
+    	var map = document.getElementsByName("map");
+    	var y = document.getElementsByName("HC1");
+    	y[0].innerHTML = "中部據點:文心分公司";
+    	map[0].src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100842.5752903727!2d120.59094528484458!3d24.140226474810188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d9555555555%3A0x684405b48b3d9796!2z5paH5b-D5qOu5p6X5YWs5ZySIFdlbi1Ic2luIEZvcmVzdCBQYXJr!5e0!3m2!1szh-TW!2stw!4v1525617336408"
+    }
+    function ch_map3(){
+    	var map = document.getElementsByName("map");
+    	var y = document.getElementsByName("HC1");
+    	y[0].innerHTML = "南部據點:巴克禮分公司";
+    	map[0].src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57933.58159901938!2d120.18470627008716!3d22.968081119814222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e7421350b0a33%3A0x2dbbd32dfa02333c!2z5be05YWL56au57SA5b-15YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1525617483432"
+    }
+    function ch_map4(){
+    	var map = document.getElementsByName("map");
+    	var y = document.getElementsByName("HC1");
+    	y[0].innerHTML = "東部據點:懷恩總公司";
+    	map[0].src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58020.9085128361!2d121.08256754746516!3d22.76343841965063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346fb99883a014b3%3A0xf5680f097ce8feb9!2z5oe35oGp5ZyS5Y2A!5e0!3m2!1szh-TW!2stw!4v1525617562814"
+    }
+	</script>
+</body>
+</html>
